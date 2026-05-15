@@ -9,9 +9,9 @@ marvel_movies = {
 }
 
 # Write your code here
-marvel_movies.remove("The Dark Knight")
+marvel_movies.remove("The Dark Knight") #remove删除没有对应的字符串会直接报错结束执行
 
-marvel_movies.discard("Justice League")
+marvel_movies.discard("Justice League") #discard就算字符串没有找到也是继续下一步
 
 # Testing
 print("Updated set:", marvel_movies)
